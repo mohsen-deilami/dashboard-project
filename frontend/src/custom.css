@@ -1,0 +1,99 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: Lalezar;
+    src: url(./fonts/Lalezar-Regular.ttf);
+}
+
+:root {
+    --white: #ffffff;
+    --white-50: #f0f0f0;
+    --blue: #471AAA;
+}
+html{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+* ,*::after , *::before{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--white-50);
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+
+*, body, html {
+    font-family: Lalezar;
+}
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--blue);
+    color: var(--white);
+    height: 3.6rem;
+    width: 10rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    box-shadow: rgba(149, 157, 165, 0.8)0 .8rem 2.4rem;
+}
+.modal-parent{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background-color: #4040426e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s ease;
+   
+}
+.active-modal{
+     visibility: visible;
+     opacity: 1;
+
+ }
+
+ .cms-main {
+   
+    padding: 2rem;
+    border-radius: 2.5rem;
+}
+
+.cms-table {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+
+.cms-table tr {
+    text-align: center;
+}
+
+.cms-table th, .cms-table td {
+    padding: 2rem;
+}
+
+.cms-table button {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: .8rem 1.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.cms-title{
+    font-size: 3rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,23 @@
+1- xampp 
+{
+apachi and mysql 
+start 
+}
+2 - 
+{
+در مسیر  
+backend  
+دستور 
+npm i 
+}
+
+3 - {
+توی گیت بش و مسیر بکند :
+node server.js
+}
+
+ 4 -
+{
+ در مسیر فرانت اند :
+npm start 
+}

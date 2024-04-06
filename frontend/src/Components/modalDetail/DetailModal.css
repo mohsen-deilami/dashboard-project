@@ -1,0 +1,21 @@
+.details-modal {
+  background-color: var(--white);
+  width: 60rem;
+  border-radius: 1rem;
+}
+.cms-table {
+  width: 100%;
+}
+
+.cms-table tr {
+  text-align: center;
+}
+
+.cms-table th{
+    font-size: 2rem;
+    
+}
+.cms-table th,
+.cms-table td {
+  padding: 2rem;
+}

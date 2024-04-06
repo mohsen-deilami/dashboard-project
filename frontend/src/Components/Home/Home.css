@@ -1,0 +1,19 @@
+.home-title{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.chrat-top{
+    width: 100%;
+}
+.chrat-botom{
+    margin: 2rem 0;
+    display: flex;
+    column-gap: 2rem;
+}
+.chrat-botom-left{
+    width: 100%;
+}
+.chrat-botom-right{
+    width: 100%;
+
+}
